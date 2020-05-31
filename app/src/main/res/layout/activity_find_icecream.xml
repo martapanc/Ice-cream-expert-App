@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".FindIcecreamActivity">
+
+
+    <Spinner
+        android:id="@+id/iceCreamTypes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="37dp"
+        android:entries="@array/icecream_type_array" />
+
+    <TextView
+        android:id="@+id/iceCreamFlavours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/find_icecream"
+        android:layout_alignStart="@id/find_icecream"
+        android:layout_marginTop="18dp"
+        android:text="@string/icecream" />
+
+    <Button
+        android:id="@+id/find_icecream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iceCreamTypes"
+        android:layout_alignStart="@id/iceCreamTypes"
+        android:text="@string/button"
+        android:onClick="onClickFindIcecream"/>
+
+</RelativeLayout>

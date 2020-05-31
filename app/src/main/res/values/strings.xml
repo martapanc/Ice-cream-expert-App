@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ice-cream Adviser</string>
+    <string name="button">Find Ice Cream</string>
+    <string name="icecream"></string>
+    <string-array name="icecream_type_array">
+        <item>Fruit</item>
+        <item>Chocolate</item>
+        <item>Yogurt</item>
+        <item>Cake</item>
+        <item>Cookie</item>
+    </string-array>
+</resources>
